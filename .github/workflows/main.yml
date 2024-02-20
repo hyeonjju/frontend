@@ -19,7 +19,7 @@ jobs:
         port: ${{ secrets.REMOTE_PORT }}
         script: |
           sudo rm -rf frontend
-          sudo git clone https://github.com/guswn1281/frontend
+          sudo git clone https://github.com/guswn2801/frontend
           cd frontend
           sudo npm i
           sudo npm run build
