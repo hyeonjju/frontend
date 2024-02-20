@@ -23,8 +23,8 @@ jobs:
           cd frontend
           sudo npm i
           sudo npm run build
-          sudo docker build --tag ddarahakit2023/frontend:latest .
-          sudo docker login -u ddarahakit2023 -p Dkagh1234!
-          sudo docker push ddarahakit2023/frontend:latest
+          sudo docker build --tag guswn1281/frontend:latest .
+          sudo docker login -u guswn1281 -p hhj847400!
+          sudo docker push guswn1281/frontend:latest
           docker-compose -f /home/ubuntu/web.yml pull
           docker-compose -f /home/ubuntu/web.yml up --force-recreate
