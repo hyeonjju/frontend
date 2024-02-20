@@ -15,7 +15,7 @@ jobs:
       with:
         host: ${{ secrets.REMOTE_HOST }}
         username: ${{ secrets.REMOTE_USER }}
-        key: ${{ secrets.SSH_KEY }}
+        key: ${{ secrets.KEY }}
         port: ${{ secrets.REMOTE_PORT }}
         script: |
           sudo rm -rf frontend
